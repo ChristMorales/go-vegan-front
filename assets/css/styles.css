@@ -6,9 +6,9 @@
  * Website: https://themes.3rdwavemedia.com/
 */
 body {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Montserrat', arial, sans-serif;
   color: #494d55;
-  font-size: 14px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1192,6 +1192,31 @@ a:focus {
   margin: 0 auto;
   margin-bottom: 60px;
 }
+/* ======= Mayoristas Section ======= */
+
+
+.mayoristas-section {
+  background: #40babd;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.mayoristas-section .section-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.mayoristas-img { 
+  width: 40%;
+}
+
 
 @media (max-width: 767.98px) {
   .navbar-collapse {
