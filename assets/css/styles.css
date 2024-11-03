@@ -1,10 +1,5 @@
-/*   
- * Template Name: Appkit Landing - Responsive Website Template for Developers
- * Version: 2.0
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * Website: https://themes.3rdwavemedia.com/
-*/
+
+
 body {
   font-family: 'Montserrat', arial, sans-serif;
   color: #494d55;
@@ -146,6 +141,14 @@ a:focus {
   width: 11px;
   height: 11px;
 }
+
+ul li {
+  list-style-type: none;
+}
+ol li {
+  list-style-type: none;
+}
+
 
 /* ======= Header ======= */
 .header {
@@ -1216,6 +1219,50 @@ a:focus {
 .mayoristas-img { 
   width: 40%;
 }
+
+/* ======= Whatsapp ======= */
+
+.whatsapp a{
+  text-decoration: none;
+}
+#whatsapp {
+	position: fixed;
+	bottom: 20px;
+	right:20px;
+}
+svg {
+	width: 80px;
+	display: inline-block;
+  vertical-align: middle;
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+}
+circle {
+  fill: #25d366;
+}
+path {
+	fill:  #fff;
+}
+#whatsapp a {padding: 20px 0;}
+#whatsapp a::before {
+	content: 'Te asesoramos por whatsapp';
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px 10px;
+	margin-right: 10px;
+	color: rgba(0, 0, 0, .8);
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+	transition: .3s ease;
+	opacity: 0;
+}
+#whatsapp:hover a::before {opacity: 1;}
+
+
+
+
+
 
 
 @media (max-width: 767.98px) {
