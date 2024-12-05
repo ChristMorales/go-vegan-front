@@ -1171,12 +1171,45 @@ ol li {
   background: #f5f5f5;
 }
 
+
 .team-section .section-title {
   margin: 0;
   margin-bottom: 15px;
   font-size: 36px;
   font-weight: 300;
+
+  color: rgb(0, 0, 0);
 }
+
+.team-section-index {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #f5f5f5;
+}
+
+
+.team-section-index .section-title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 300;
+  background-color: #00000000;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.team-section h3{
+
+  font-size: 32px;
+  font-weight: 200;
+}
+.team-section ul{
+  display: inline-block;
+
+  line-height: 2rem;
+}
+
 
 .team-section .intro {
   color: #8e949e;
@@ -1187,9 +1220,21 @@ ol li {
 }
 
 .team-section .story {
+  color: rgb(0, 0, 0);
+  padding: 3%;
   margin: 0 auto;
   margin-bottom: 60px;
-  max-width: 800px;
+  max-width: 80%;
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+
+
 }
 
 .team-section .profile-image {
@@ -1255,6 +1300,114 @@ ol li {
 .team-section .member-desc {
   color: #616670;
 }
+
+/* ======= Locales ======= */
+
+.team-section-locales {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #616670;
+}
+
+
+.team-section-locales .section-title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 300;
+  background-color: #00000000;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.team-section-locales h3{
+
+  font-size: 32px;
+  font-weight: 200;
+}
+
+
+
+
+.team-section-locales .story {
+  color: white;
+  padding: 5%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  max-width: 80%;
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-color: #800080b7;
+
+}
+
+.team-section-locales .profile-image {
+  /*   width: 100%;
+  height: 100%; */
+  width: 90%;
+  height: auto;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #c8c5e2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+
+.team-section-locales .members-wrapper {
+  margin: 0 auto;
+}
+
+.team-section-locales .item {
+  margin-bottom: 2%;
+}
+
+.team-section-locales .item-inner {
+  padding: 10px;
+  background: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  height: 100%;
+  margin: 20px;
+}
+
+.team-section-locales .member-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #494d55;
+}
+
+.team-section-locales .member-title {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #616670;
+}
+
+
+.team-section-locales .member-desc {
+  color: #616670;
+}
+
 
 /* ======= Contact Section ======= */
 .contact-section {
@@ -1625,6 +1778,7 @@ path {
     padding: 3%;
     margin: auto;
   }
+}
 
   @media (min-width: 992px) {
     .main-nav .nav .nav-item {
