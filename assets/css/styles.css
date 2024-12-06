@@ -1199,12 +1199,13 @@ ol li {
   text-decoration: none;
 }
 
-.team-section-index h3{
+.team-section-index h3 {
 
   font-size: 32px;
   font-weight: 200;
 }
-.team-section-index ul{
+
+.team-section-index ul {
   display: inline-block;
 
   line-height: 2rem;
@@ -1336,12 +1337,13 @@ ol li {
   text-decoration: none;
 }
 
-.team-section h3{
+.team-section h3 {
 
   font-size: 32px;
   font-weight: 200;
 }
-.team-section ul{
+
+.team-section ul {
   display: inline-block;
 
   line-height: 2rem;
@@ -1448,20 +1450,17 @@ ol li {
 
 
 .team-section-locales .section-title {
-  margin: 0;
-  margin-bottom: 15px;
-  font-size: 36px;
+  margin: 2%;
+  font-size: 30px;
   font-weight: 300;
-  background-color: #00000000;
   color: white;
-  border: none;
-  text-decoration: none;
 }
 
-.team-section-locales h3{
+.team-section-locales h3 {
 
   font-size: 32px;
   font-weight: 200;
+  margin: 3%;
 }
 
 
@@ -1485,10 +1484,14 @@ ol li {
 
 }
 
+.team-section-locales .container {
+  position: relative;
+}
+
 .team-section-locales .profile-image {
   /*   width: 100%;
   height: 100%; */
-  width: 90%;
+  width: 80%;
   height: auto;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1500,7 +1503,17 @@ ol li {
   -o-border-radius: 50%;
   border-radius: 50%;
   margin: 20px;
+  display: block;
 }
+
+.team-section-locales .ig-link{
+  position: absolute; 
+  bottom:50px; 
+  right:50px;
+  color: #616670;
+  font-size: 50px;
+}
+
 
 
 
@@ -1545,7 +1558,6 @@ ol li {
   color: #616670;
 }
 
-
 /* ======= Contact Section ======= */
 .contact-section {
   padding-top: 90px;
@@ -1582,14 +1594,25 @@ ol li {
 
 }
 
-.mayoristas-section .container {
+.mayoristas-section .container-left {
   margin: 0 auto;
   width: 80%;
-
   background-image: url("../images/mayorista.png");
   background-size: 30%;
   background-repeat: no-repeat;
   background-position: left;
+  background-clip: border-box;
+
+
+}
+
+.mayoristas-section .container-right {
+  margin: 0 auto;
+  width: 70%;
+  background-image: url("../images/local2.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: right;
   background-clip: border-box;
   padding: 10% 0 10% 0;
   height: 500px;
@@ -1608,11 +1631,16 @@ ol li {
 
 .mayoristas-section .para1 .para {
   background-color: rgba(234, 221, 234, 0.845);
-
   padding: 3%;
-
+  margin: auto;
 
 }
+
+.mayoristas-section .para2 .para {
+  background-color: rgba(234, 221, 234, 0.845);
+  padding: 3%;
+}
+
 
 
 
@@ -1639,7 +1667,7 @@ circle {
   fill: #25d366;
 }
 
-path {
+.whatsapp path {
   fill: #fff;
 }
 
@@ -1917,161 +1945,161 @@ path {
   }
 }
 
-  @media (min-width: 992px) {
-    .main-nav .nav .nav-item {
-      margin-right: 25px;
-    }
+@media (min-width: 992px) {
+  .main-nav .nav .nav-item {
+    margin-right: 25px;
+  }
 
-    .feature-nav {
-      margin-top: 30px;
-      padding-left: 15px;
-    }
+  .feature-nav {
+    margin-top: 30px;
+    padding-left: 15px;
+  }
 
-    .hero-section .figure-holder .figure-image {
-      width: 420px;
-      bottom: inherit;
-      top: 130px;
-    }
+  .hero-section .figure-holder .figure-image {
+    width: 420px;
+    bottom: inherit;
+    top: 130px;
+  }
 
-    .hero-carousel .carousel-inner .item-content-inner {
-      max-width: 500px;
-
-    }
-
-    .map-local {
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      width: 80%;
-      height: 450px;
-    }
-
-    .mapa-mayoristas {
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      width: 80%;
-      height: 450px;
-    }
-
-    .testimonials-section .container {
-      width: 100%;
-    }
-
-    .testimonials-section .quote-holder1 {
-      background-size: 45%;
-      margin: 5%;
-      padding: 2%;
-    }
-
-    .testimonials-section .quote1 {
-      margin: 5%;
-      padding: 2%;
-    }
-
-    .testimonials-section .quote-holder2 {
-      background-size: 45%;
-      margin: 5%;
-      padding: 2%;
-    }
-
-    .testimonials-section .quote2 {
-      margin: 5%;
-      padding: 2%;
-    }
-
-    .testimonials-section .quote-holder3 {
-      background-size: 45%;
-      margin: 5%;
-      padding: 2%;
-    }
-
-    .testimonials-section .quote3 {
-      margin: 5%;
-      padding: 2%;
-    }
-
-    .mayoristas-section .container {
-      background-size: 45%;
-
-      background-position: left;
-
-      margin: auto;
-      padding: 2%;
-
-
-    }
-
-    .mayoristas-section .para1 {
-      padding: 3%;
-      margin-left: 20%;
-
-    }
+  .hero-carousel .carousel-inner .item-content-inner {
+    max-width: 500px;
 
   }
 
-  @media (min-width: 1200px) {
-    .hero-section .figure-holder .figure-image {
-      width: 570px;
-      bottom: 0;
-      top: inherit;
-    }
+  .map-local {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 450px;
+  }
 
-    .testimonials-section .container {
-      width: 100%;
-    }
+  .mapa-mayoristas {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 450px;
+  }
 
-    .testimonials-section .quote-holder1 {
-      background-size: 35%;
-      margin: 5%;
-      padding: 2%;
-    }
+  .testimonials-section .container {
+    width: 100%;
+  }
 
-    .testimonials-section .quote1 {
-      margin: 5%;
-      padding: 2%;
-    }
+  .testimonials-section .quote-holder1 {
+    background-size: 45%;
+    margin: 5%;
+    padding: 2%;
+  }
 
-    .testimonials-section .quote-holder2 {
-      background-size: 35%;
-      margin: 5%;
-      padding: 2%;
-    }
+  .testimonials-section .quote1 {
+    margin: 5%;
+    padding: 2%;
+  }
 
-    .testimonials-section .quote2 {
-      margin: 5%;
-      padding: 2%;
-    }
+  .testimonials-section .quote-holder2 {
+    background-size: 45%;
+    margin: 5%;
+    padding: 2%;
+  }
 
-    .testimonials-section .quote-holder3 {
-      background-size: 35%;
-      margin: 5%;
-      padding: 2%;
-    }
+  .testimonials-section .quote2 {
+    margin: 5%;
+    padding: 2%;
+  }
 
-    .testimonials-section .quote3 {
-      margin: 5%;
-      padding: 2%;
-    }
+  .testimonials-section .quote-holder3 {
+    background-size: 45%;
+    margin: 5%;
+    padding: 2%;
+  }
 
-    .map-local {
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      width: 60%;
-      height: 450px;
-    }
+  .testimonials-section .quote3 {
+    margin: 5%;
+    padding: 2%;
+  }
 
-    .mapa-mayoristas {
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      width: 60%;
-      height: 450px;
-    }
+  .mayoristas-section .container {
+    background-size: 45%;
+
+    background-position: left;
+
+    margin: auto;
+    padding: 2%;
+
 
   }
+
+  .mayoristas-section .para1 {
+    padding: 3%;
+    margin-left: 20%;
+
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .hero-section .figure-holder .figure-image {
+    width: 570px;
+    bottom: 0;
+    top: inherit;
+  }
+
+  .testimonials-section .container {
+    width: 100%;
+  }
+
+  .testimonials-section .quote-holder1 {
+    background-size: 35%;
+    margin: 5%;
+    padding: 2%;
+  }
+
+  .testimonials-section .quote1 {
+    margin: 5%;
+    padding: 2%;
+  }
+
+  .testimonials-section .quote-holder2 {
+    background-size: 35%;
+    margin: 5%;
+    padding: 2%;
+  }
+
+  .testimonials-section .quote2 {
+    margin: 5%;
+    padding: 2%;
+  }
+
+  .testimonials-section .quote-holder3 {
+    background-size: 35%;
+    margin: 5%;
+    padding: 2%;
+  }
+
+  .testimonials-section .quote3 {
+    margin: 5%;
+    padding: 2%;
+  }
+
+  .map-local {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 450px;
+  }
+
+  .mapa-mayoristas {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 450px;
+  }
+
+}
