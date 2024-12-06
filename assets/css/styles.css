@@ -1165,14 +1165,14 @@ ol li {
 }
 
 /* ======= Team Section ======= */
-.team-section {
+.team-section-index {
   padding-top: 90px;
   padding-bottom: 90px;
   background: #f5f5f5;
 }
 
 
-.team-section .section-title {
+.team-section-index .section-title {
   margin: 0;
   margin-bottom: 15px;
   font-size: 36px;
@@ -1195,6 +1195,143 @@ ol li {
   font-weight: 300;
   background-color: #00000000;
   color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.team-section-index h3{
+
+  font-size: 32px;
+  font-weight: 200;
+}
+.team-section-index ul{
+  display: inline-block;
+
+  line-height: 2rem;
+}
+
+
+.team-section-index .intro {
+  color: #8e949e;
+  font-size: 16px;
+  max-width: 90;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.team-section-index .story {
+  color: rgb(0, 0, 0);
+  padding: 3%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  max-width: 80%;
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-color: #80008096;
+
+
+}
+
+.team-section-index .profile-image {
+  /*   width: 100%;
+  height: 100%; */
+  width: 90%;
+  height: auto;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #c8c5e2;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.team-section-index .carousel-inner {
+  width: 328px;
+  height: 246px;
+
+}
+
+.team-section-index .members-wrapper {
+  margin: 0 auto;
+}
+
+.team-section-index .item {
+  margin-bottom: 2%;
+}
+
+.team-section-index .item-inner {
+  padding: 10px;
+  background: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  height: 100%;
+  margin: 20px;
+}
+
+.team-section-index .member-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #494d55;
+}
+
+.team-section-index .member-title {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #616670;
+}
+
+
+.team-section-index .member-desc {
+  color: #616670;
+}
+
+
+.team-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #f5f5f5;
+}
+
+
+.team-section .section-title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 300;
+
+  color: rgb(0, 0, 0);
+}
+
+.team-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #f5f5f5;
+}
+
+
+.team-section .section-title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
   border: none;
   text-decoration: none;
 }
@@ -1233,7 +1370,7 @@ ol li {
   border-radius: 8px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
-
+  background-color: #80008096;
 
 }
 
