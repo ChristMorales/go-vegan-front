@@ -1508,8 +1508,8 @@ ol li {
 
 .team-section-locales .ig-link{
   position: absolute; 
-  bottom:50px; 
-  right:50px;
+  bottom:15%; 
+  right:15%;
   color: #616670;
   font-size: 50px;
 }
