@@ -363,6 +363,10 @@ ol li {
   color: #fff;
 }
 
+.main-nav .nav-link .tienda{
+  font-weight: 800;
+}
+
 .nav>li>a {
   padding-left: 5px;
   padding-right: 5px;
